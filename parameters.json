@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmDnsName": {
+      "value": "wemanityDns"
+    },
+    "adminUsername": {
+      "value": "Wemanity1"
+    },
+    "mySqlPassword": {
+      "value": "Wemanity2"
+    },
+    "vmSize": {
+      "value": "Standard_D2_v3"
+    },
+    "adminPasswordOrKey": {
+      "value": "WemanityKey"
+    }
+  }
+}
