@@ -1,0 +1,4 @@
+#Assumption : In Azure Environment
+
+New-AzResourceGroup -Name "wemanityKata" -Location "northeurope"
+New-AzResourceGroupDeployment -ResourceGroupName "wemanityKata" -TemplateFile deploy.json -TemplateParameterFile parameters.json 
