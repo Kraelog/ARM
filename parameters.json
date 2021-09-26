@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmDnsName": {
-      "value": "wemanityDns"
+      "value": "wemanitydns"
     },
     "adminUsername": {
       "value": "Wemanity1"
