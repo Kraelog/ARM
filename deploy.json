@@ -6,29 +6,25 @@
       "type": "string",
       "metadata": {
         "description": "This is the unique DNS name of the for the public IP for your VM"
-      },
-      "defaultValue": "myDnstest"
+      }
     },
     "adminUsername": {
       "type": "string",
       "metadata": {
         "description": "This is the username you wish to assign to your VMs admin account"
-      },
-      "defaultValue": "Admintest"
+      }
     },
     "mySqlPassword": {
       "type": "securestring",
       "metadata": {
         "description": "Password for your mySQL account"
-      },
-      "defaultValue": "SQLtest"
+      }
     },
     "vmSize": {
       "type": "string",
       "metadata": {
         "description": "Size of VM"
-      },
-      "defaultValue": "Standard_D2_v3"
+      }
     },
     "location": {
       "type": "string",
@@ -52,8 +48,7 @@
       "type": "securestring",
       "metadata": {
         "description": "SSH Key or password for the Virtual Machine. SSH key is recommended."
-      },
-      "defaultValue": "therher"
+      }
     },
     "_artifactsLocation": {
         "type": "string",
